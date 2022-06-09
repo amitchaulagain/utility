@@ -12,10 +12,10 @@ public class Hero {
         BufferedReader reader;
         try {
             reader = new BufferedReader(new FileReader(
-                    "/Users/admin/backup/UtilityProject/src/com/company/hero.txt"));
+                    "/Users/admin/backup/UtilityProject/src/com/company/input.txt"));
             String line = reader.readLine();
 
-            String allLines="";
+            String allLines = "";
             while (line != null) {
 
                 String newLine = line.replaceAll("= [0-`9]", "");
@@ -45,11 +45,11 @@ public class Hero {
                     }
                 }
 
-                String eachLine = ourLine + " " + snakeToCamel(x[1]) + " ;\n";
-                allLines+=eachLine;
+                String eachLine = "private " + ourLine + " " + snakeToCamel(x[1]) + ";\n";
+                allLines += eachLine;
 
 
-               // System.out.println(eachLine);
+                // System.out.println(eachLine);
                 // read next line
                 line = reader.readLine();
             }

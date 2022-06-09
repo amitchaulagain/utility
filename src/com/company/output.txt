@@ -1,9 +1,9 @@
-Optional<String> name ;
-Optional<String> description ;
-avenue.financial.protobuf.core.PostCommissionCalculationOptionTypeWrapper.PostCommissionCalculationOptionTypeProto calculationOptionType ;
-Optional<Boolean> isDebit ;
-Optional<Double> fee ;
-avenue.financial.protobuf.core.ContactTypeProto contactType ;
-Optional<String> contactId ;
-Optional<String> contactName ;
-avenue.financial.protobuf.core.CalculationBaseTypeProto calculationBaseType ;
+private Optional<String> name ;
+private Optional<String> description ;
+private avenue.financial.protobuf.core.PostCommissionCalculationOptionTypeWrapper.PostCommissionCalculationOptionTypeProto calculationOptionType ;
+private Optional<Boolean> isDebit ;
+private Optional<Double> fee ;
+private avenue.financial.protobuf.core.ContactTypeProto contactType ;
+private Optional<String> contactId ;
+private Optional<String> contactName ;
+private avenue.financial.protobuf.core.CalculationBaseTypeProto calculationBaseType ;

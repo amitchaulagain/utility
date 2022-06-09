@@ -1,0 +1,12 @@
+Optional<String> name ;
+Optional<String> description ;
+avenue.financial.protobuf.core.PreCommissionCalculationOptionTypeWrapper.PreCommissionCalculationOptionTypeProto calculationOptionType ;
+Optional<Boolean> isDebit ;
+Optional<Boolean> isCalculatedBefore ;
+Optional<Double> fee ;
+Optional<Boolean> isIncludedInTotal ;
+avenue.financial.protobuf.core.ContactTypeProto contactType ;
+Optional<String> contactId ;
+Optional<String> contactName ;
+avenue.financial.protobuf.core.CalculationBaseTypeProto  ;
+Optional<Boolean> hasCap ;

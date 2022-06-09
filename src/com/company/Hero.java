@@ -21,7 +21,7 @@ public class Hero {
                 String newLine = line.replaceAll("= [0-`9]", "");
                 // System.out.println(newLine);
 
-                String[] x = newLine.trim().split(" ");
+                String[] x = newLine.trim().split("\\s+");
 
                 String ourLine = "";
                 switch (x[0]) {

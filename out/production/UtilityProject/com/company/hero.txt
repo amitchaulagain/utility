@@ -1,12 +1,9 @@
-  google.protobuf.StringValue name = 1;
+google.protobuf.StringValue name = 1;
   google.protobuf.StringValue description = 2;
-  avenue.financial.protobuf.core.PreCommissionCalculationOptionTypeWrapper.PreCommissionCalculationOptionTypeProto calculation_option_type = 3;
+  avenue.financial.protobuf.core.PostCommissionCalculationOptionTypeWrapper.PostCommissionCalculationOptionTypeProto calculation_option_type = 3;
   google.protobuf.BoolValue is_debit = 4;
-  google.protobuf.BoolValue is_calculated_before = 5;
   google.protobuf.DoubleValue fee = 6;
-  google.protobuf.BoolValue is_included_in_total = 7;
   avenue.financial.protobuf.core.ContactTypeProto contact_type = 8;
   google.protobuf.StringValue contact_id = 9;
   google.protobuf.StringValue contact_name = 10;
   avenue.financial.protobuf.core.CalculationBaseTypeProto  calculation_base_type = 11;
-  google.protobuf.BoolValue has_cap = 12;
